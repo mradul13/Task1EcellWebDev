@@ -1,0 +1,43 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 8vh;
+  background-color: rgb(21, 41, 41);
+}
+
+.logo {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 25px;
+  color: azure;
+  font-weight: bolder;
+}
+
+.navlinks {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.navlinks li {
+  list-style: none;
+}
+.navlinks a {
+  color: azure;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+
+.burger div {
+  background-color: azure;
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  transition: 0.3s ease;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
